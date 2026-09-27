@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5ef" />
+    <meta
+      name="description"
+      content="Keep Hub แอปเก็บโน้ต ลิงก์ รูป ไฟล์ งาน และรหัสผ่านไว้เป็นระบบ ทำงานออฟไลน์ และซิงก์ผ่าน Google Drive ของคุณ"
+    />
+    <meta property="og:title" content="Keep Hub — เก็บทุกอย่าง ให้หาเจอ" />
+    <meta
+      property="og:description"
+      content="พื้นที่เดียวสำหรับโน้ต ลิงก์ รูป ไฟล์ งาน และรหัสผ่าน เป็นส่วนตัว ทำงานออฟไลน์ และซิงก์ผ่าน Google Drive"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://leonlek.github.io/keep-hub/" />
+    <meta
+      property="og:image"
+      content="https://leonlek.github.io/keep-hub/assets/social-preview.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://leonlek.github.io/keep-hub/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Keep Hub — เก็บทุกอย่าง ให้หาเจอ</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Keep Hub หน้าแรก">
+          <img src="assets/favicon.svg" width="36" height="36" alt="" />
+          <span>Keep Hub</span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">เปิดเมนู</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="เมนูหลัก">
+          <a href="#features">ฟีเจอร์</a>
+          <a href="#privacy">ความเป็นส่วนตัว</a>
+          <a href="#workflow">วิธีใช้</a>
+          <a class="nav-cta" href="https://keep-hub.pages.dev">เปิดเว็บแอป <span>↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="eyebrow reveal">
+            <span class="pulse-dot"></span> จดตอนนี้ จัดทีหลัง หาเจอเสมอ
+          </div>
+          <h1 class="reveal delay-1">ทุกอย่างที่อยากเก็บ<br /><span>อยู่ถูกที่สักที</span></h1>
+          <p class="hero-lead reveal delay-2">
+            โน้ต ลิงก์ รูป ไฟล์ งาน และรหัสผ่าน—รวมไว้ในพื้นที่เดียวที่เป็นของคุณ ทำงานออฟไลน์
+            และซิงก์ตรงผ่าน Google Drive
+          </p>
+          <div class="hero-actions reveal delay-3">
+            <a class="button button-primary" href="https://keep-hub.pages.dev">
+              ลองใช้บนเว็บ
+              <span class="button-icon" aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="#features"
+              >ดูว่าทำอะไรได้บ้าง <span>↓</span></a
+            >
+          </div>
+          <div class="trust-row reveal delay-3" aria-label="แพลตฟอร์มที่รองรับ">
+            <span><i class="mini-icon">●</i> iOS</span>
+            <span><i class="mini-icon">◆</i> Android</span>
+            <span><i class="mini-icon">■</i> Web</span>
+            <span><i class="mini-icon">✦</i> Chrome</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-2" aria-label="ตัวอย่างหน้าจอ Keep Hub">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="app-window">
+            <div class="window-topbar">
+              <div class="traffic"><span></span><span></span><span></span></div>
+              <div class="window-title">Keep Hub</div>
+              <div class="sync-pill"><span></span> ซิงก์แล้ว</div>
+            </div>
+            <div class="app-layout">
+              <aside class="mock-sidebar">
+                <div class="mock-logo">
+                  <img src="assets/favicon.svg" width="30" height="30" alt="" />
+                  <b>Keep Hub</b>
+                </div>
+                <div class="mock-search">⌕&nbsp;&nbsp;ค้นหาทุกอย่าง</div>
+                <div class="mock-nav active"><span>⌂</span> Inbox <b>12</b></div>
+                <div class="mock-nav"><span>★</span> รายการโปรด</div>
+                <div class="mock-nav"><span>◷</span> เปิดล่าสุด</div>
+                <p class="mock-label">สมุดของฉัน</p>
+                <div class="mock-nav"><span class="nav-color blue"></span> งาน</div>
+                <div class="mock-nav"><span class="nav-color orange"></span> ส่วนตัว</div>
+                <div class="mock-nav"><span class="nav-color green"></span> ไอเดีย</div>
+              </aside>
+
+              <div class="mock-content">
+                <div class="content-head">
+                  <div>
+                    <span class="tiny-label">พื้นที่ของฉัน</span>
+                    <h2>Inbox</h2>
+                  </div>
+                  <button tabindex="-1">＋ โน้ตใหม่</button>
+                </div>
+                <div class="note-grid">
+                  <article class="note-card note-yellow">
+                    <div class="note-type">✦ ไอเดีย</div>
+                    <h3>หน้าแรกที่อยากทำ</h3>
+                    <p>เรียบง่าย แต่จำได้ทันที<br />เล่าเรื่องให้จบในหน้าเดียว</p>
+                    <div class="tag-row"><span>#design</span><span>#website</span></div>
+                  </article>
+                  <article class="note-card note-image">
+                    <div class="fake-photo"><span>CHIANG MAI</span></div>
+                    <h3>ทริปปลายปี</h3>
+                    <p>คาเฟ่ · ที่พัก · แผนเดินทาง</p>
+                  </article>
+                  <article class="note-card note-white">
+                    <div class="note-type">✓ เช็กลิสต์</div>
+                    <h3>ก่อนปล่อยเวอร์ชันใหม่</h3>
+                    <label><i class="checked">✓</i> ทดสอบบนมือถือ</label>
+                    <label><i></i> เขียน release notes</label>
+                    <label><i></i> เตรียมภาพหน้าจอ</label>
+                  </article>
+                  <article class="note-card note-blue">
+                    <div class="note-type">↗ ลิงก์</div>
+                    <h3>อ่านทีหลัง</h3>
+                    <p>Designing for calm technology</p>
+                    <div class="link-foot">medium.com <span>→</span></div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card float-capture">
+            <span class="float-icon">⌁</span>
+            <div><small>บันทึกจากทุกที่</small><b>ส่งเข้า Inbox แล้ว</b></div>
+            <span class="check">✓</span>
+          </div>
+          <div class="floating-card float-drive">
+            <span class="drive-mark"><i></i><i></i><i></i></span>
+            <div><small>พื้นที่ของคุณ</small><b>Google Drive</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="ประเภทข้อมูลที่ Keep Hub รองรับ">
+        <div class="ticker-track">
+          <span>โน้ต</span><i>✦</i><span>ลิงก์</span><i>✦</i><span>รูปภาพ</span><i>✦</i
+          ><span>ไฟล์</span><i>✦</i><span>To-do</span><i>✦</i><span>รหัสผ่าน</span><i>✦</i>
+          <span aria-hidden="true">โน้ต</span><i aria-hidden="true">✦</i
+          ><span aria-hidden="true">ลิงก์</span><i aria-hidden="true">✦</i
+          ><span aria-hidden="true">รูปภาพ</span><i aria-hidden="true">✦</i
+          ><span aria-hidden="true">ไฟล์</span><i aria-hidden="true">✦</i
+          ><span aria-hidden="true">To-do</span><i aria-hidden="true">✦</i
+          ><span aria-hidden="true">รหัสผ่าน</span><i aria-hidden="true">✦</i>
+        </div>
+      </section>
+
+      <section class="section feature-section" id="features">
+        <div class="section-heading reveal">
+          <p class="kicker">เก็บได้มากกว่าความคิด</p>
+          <h2>จาก “เดี๋ยวค่อยดู”<br />เป็น “หาเจอแล้ว”</h2>
+          <p>รับของเข้ามาเร็ว จัดเป็นระบบเท่าที่ต้องการ และดึงกลับมาใช้ได้ทันที</p>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento bento-capture reveal">
+            <div class="bento-copy">
+              <span class="number">01</span>
+              <h3>จับทุกอย่าง<br />ก่อนมันหายไป</h3>
+              <p>
+                แชร์จาก Safari, LINE, TikTok หรือ Chrome เข้า Inbox ได้ทันที ทั้งข้อความ ลิงก์ รูป
+                วิดีโอ และไฟล์
+              </p>
+            </div>
+            <div class="capture-demo" aria-hidden="true">
+              <div class="share-sheet">
+                <div class="share-source">
+                  <span class="source-thumb"></span>
+                  <div><b>How to build a second brain</b><small>บทความ · 8 นาที</small></div>
+                </div>
+                <div class="share-line"></div>
+                <div class="share-destination">
+                  <img src="assets/favicon.svg" alt="" /><span>เก็บใน Keep Hub</span><b>ส่ง</b>
+                </div>
+              </div>
+              <div class="capture-arrow">↓</div>
+              <div class="inbox-chip">
+                <span>⌂</span>
+                <div><small>Inbox</small><b>How to build a second brain</b></div>
+                <i>ใหม่</i>
+              </div>
+            </div>
+          </article>
+
+          <article class="bento bento-organize reveal delay-1">
+            <div class="bento-copy">
+              <span class="number">02</span>
+              <h3>ลึกแค่ไหน<br />ก็ยังไม่หลง</h3>
+              <p>
+                สมุด → โปรเจกต์ → โฟลเดอร์ซ้อนได้ พร้อม tag ที่จัดเป็นชั้น เมื่อโครงสร้างโตขึ้น
+                ทุกอย่างยังอยู่ที่เดิม
+              </p>
+            </div>
+            <div class="tree-demo" aria-hidden="true">
+              <div class="tree-row root">
+                <span>▾</span><i class="folder blue"></i><b>Studio</b>
+              </div>
+              <div class="tree-row level-1">
+                <span>▾</span><i class="folder orange"></i><b>Keep Hub</b>
+              </div>
+              <div class="tree-row level-2 active">
+                <span>▾</span><i class="folder green"></i><b>Launch</b><em>18</em>
+              </div>
+              <div class="tree-row level-3"><span>•</span><i></i>Landing page</div>
+              <div class="tree-row level-3"><span>•</span><i></i>Store screenshots</div>
+              <div class="tree-row level-2">
+                <span>›</span><i class="folder pink"></i><b>Feedback</b><em>7</em>
+              </div>
+              <div class="tag-cloud">
+                <span>#product</span><span>#design</span><span>#launch</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="bento bento-search reveal">
+            <div class="search-art" aria-hidden="true">
+              <div class="search-bar"><span>⌕</span><b>สัญญาเช่าคอนโด</b><kbd>⌘ K</kbd></div>
+              <div class="search-result">
+                <div class="result-icon">PDF</div>
+                <div>
+                  <small>ไฟล์ · ส่วนตัว / เอกสาร</small><b>สัญญาเช่าคอนโด 2026.pdf</b>
+                  <p>...ระยะเวลาเช่า 12 เดือน เริ่มวันที่...</p>
+                </div>
+                <span>พบในภาพ</span>
+              </div>
+            </div>
+            <div class="bento-copy">
+              <span class="number">03</span>
+              <h3>ค้นเจอ แม้ข้อความจะอยู่ในรูป</h3>
+              <p>ค้นภาษาไทยได้เร็วทั้งหัวข้อ เนื้อหา ลิงก์ และข้อความจาก OCR ในรูปภาพ</p>
+            </div>
+          </article>
+
+          <article class="bento bento-project reveal delay-1">
+            <div class="bento-copy">
+              <span class="number">04</span>
+              <h3>โน้ตที่ลงมือทำต่อได้</h3>
+              <p>
+                เปลี่ยนข้อมูลเป็น To-do, Reminder, Bug tracker และ Changelog โดยไม่ต้องย้ายไปอีกแอป
+              </p>
+            </div>
+            <div class="project-demo" aria-hidden="true">
+              <div class="project-tabs">
+                <b>Notes</b><b class="selected">Bugs <i>4</i></b
+                ><b>Changelog</b>
+              </div>
+              <div class="bug-row">
+                <span class="severity critical">Critical</span><b>Sync ค้างเมื่อกลับมาออนไลน์</b
+                ><i class="status doing">กำลังทำ</i>
+              </div>
+              <div class="bug-row">
+                <span class="severity medium">Medium</span><b>รูปปกโหลดช้า</b
+                ><i class="status open">เปิด</i>
+              </div>
+              <div class="bug-row">
+                <span class="severity low">Low</span><b>ระยะห่างบน iPad</b
+                ><i class="status done">เสร็จ</i>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-section" id="privacy">
+        <div class="privacy-card reveal">
+          <div class="privacy-visual" aria-hidden="true">
+            <div class="vault-ring ring-a"></div>
+            <div class="vault-ring ring-b"></div>
+            <div class="vault-core">
+              <img src="assets/favicon.svg" width="88" height="88" alt="" />
+              <span class="lock-badge">⌑</span>
+            </div>
+            <span class="data-pill pill-one">NOTES</span>
+            <span class="data-pill pill-two">FILES</span>
+            <span class="data-pill pill-three">TAGS</span>
+          </div>
+          <div class="privacy-copy">
+            <p class="kicker light">ข้อมูลของคุณ ก็ควรอยู่กับคุณ</p>
+            <h2>ไม่มีเซิร์ฟเวอร์กลาง<br />มาคั่นระหว่างคุณกับข้อมูล</h2>
+            <p class="privacy-lead">
+              Keep Hub ทำงานแบบ local-first ข้อมูลอยู่ในเครื่องก่อน และซิงก์ตรงไปยัง Google Drive
+              ของคุณ
+            </p>
+            <div class="privacy-points">
+              <div>
+                <span>01</span>
+                <p><b>ออฟไลน์ได้เต็มที่</b><br />เขียน แก้ และค้นหาได้แม้ไม่มีอินเทอร์เน็ต</p>
+              </div>
+              <div>
+                <span>02</span>
+                <p>
+                  <b>ขอสิทธิ์เท่าที่จำเป็น</b><br />เห็นเฉพาะไฟล์ที่ Keep Hub สร้าง
+                  ไม่เห็นไฟล์อื่นใน Drive
+                </p>
+              </div>
+              <div>
+                <span>03</span>
+                <p>
+                  <b>เอาข้อมูลออกได้เสมอ</b><br />Export เป็น Markdown + JSON
+                  พร้อมไฟล์แนบได้ทุกเมื่อ
+                </p>
+              </div>
+            </div>
+            <a class="text-link light" href="https://keep-hub.pages.dev/privacy"
+              >อ่านนโยบายความเป็นส่วนตัว <span>→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow-section" id="workflow">
+        <div class="section-heading compact reveal">
+          <p class="kicker">ง่ายตั้งแต่วินาทีแรก</p>
+          <h2>สามจังหวะ<br />จากรกเป็นเรียบ</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal">
+            <span class="step-number">1</span>
+            <div class="step-icon">↘</div>
+            <h3>โยนเข้า Inbox</h3>
+            <p>จดหรือแชร์เข้ามาก่อน ไม่ต้องเสียเวลาตัดสินใจว่าจะเก็บตรงไหน</p>
+          </li>
+          <li class="reveal delay-1">
+            <span class="step-number">2</span>
+            <div class="step-icon">⌘</div>
+            <h3>จัดเมื่อพร้อม</h3>
+            <p>ติด tag หรือย้ายเข้าโปรเจกต์ทีหลัง โครงสร้างปรับตามวิธีคิดของคุณ</p>
+          </li>
+          <li class="reveal delay-2">
+            <span class="step-number">3</span>
+            <div class="step-icon">⌕</div>
+            <h3>เรียกใช้ทันที</h3>
+            <p>ค้นหาแบบเต็มข้อความ เปิดจากทุกอุปกรณ์ แล้วลงมือทำต่อได้เลย</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="final-cta">
+        <div class="cta-noise" aria-hidden="true"></div>
+        <div class="cta-content reveal">
+          <img src="assets/favicon.svg" width="72" height="72" alt="" />
+          <p>พื้นที่สำหรับทุกอย่างที่สำคัญ</p>
+          <h2>เริ่มเก็บวันนี้<br /><span>ก่อนจะลืมอีกครั้ง</span></h2>
+          <a class="button button-light" href="https://keep-hub.pages.dev"
+            >เปิด Keep Hub บนเว็บ <span>↗</span></a
+          >
+          <small>ใช้ได้บน iOS · Android · Web · Chrome</small>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"
+        ><img src="assets/favicon.svg" width="32" height="32" alt="" /><span>Keep Hub</span></a
+      >
+      <p>เก็บทุกอย่าง ให้หาเจอ</p>
+      <div class="footer-links">
+        <a href="https://keep-hub.pages.dev/privacy">ความเป็นส่วนตัว</a>
+        <a href="https://github.com/leonlek/keep-hub">GitHub</a>
+        <span>© <span data-year>2026</span> Keep Hub</span>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
